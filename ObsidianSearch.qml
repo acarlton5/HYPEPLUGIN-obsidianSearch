@@ -209,7 +209,7 @@ QtObject {
                 text: "Copy path",
                 action: () => {
                     let fullPath = item._fullPath || "";
-                    Quickshell.execDetached(["sh", "-c", "echo -n '" + fullPath.replace(/'/g, "'\\''") + "' | dms cl copy"]);
+                    Quickshell.execDetached(["sh", "-c", "echo -n '" + fullPath.replace(/'/g, "'\\''") + "' | hype cl copy"]);
                 }
             },
             {

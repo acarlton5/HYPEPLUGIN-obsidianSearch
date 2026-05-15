@@ -14,10 +14,10 @@ cp ObsidianSearch.qml ObsidianSearchSettings.qml plugin.json \
   ~/.config/DankMaterialShell/plugins/obsidianSearch/
 
 # Reload (works when plugin is already known to DMS)
-dms ipc plugins reload obsidianSearch
+hype ipc plugins reload obsidianSearch
 
 # If plugin dir was removed/recreated, DMS needs a full restart to discover it
-# dms ipc plugins reload will return PLUGIN_NOT_FOUND in that case
+# hype ipc plugins reload will return PLUGIN_NOT_FOUND in that case
 ```
 
 ## Architecture
